@@ -1,0 +1,2 @@
+# DBSCAN-Clustering
+We had designed a model for a large dataset where we are falsifying that dataset means adding noice/outlies in order of 2%, 4%, 6%, 8%, 10%, 12%, 14%. Then from these errored/noisy dataset we will try to run the DBSCAN algorithm for every % of outliers added, also for every iteration we are giving the minpts values as random such as 3,5,7,9,11 . So motive is to find the best mean point value by plotting the ROC(FPR vs TPR) , also plotting FPR, TPR, Accuracy, Recall respectively with each % of outliers which is falsified. 
