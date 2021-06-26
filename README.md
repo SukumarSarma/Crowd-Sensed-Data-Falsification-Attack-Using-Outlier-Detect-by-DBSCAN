@@ -1,2 +1,37 @@
-# DBSCAN-Clustering
-We had designed a model for a large dataset where we are falsifying that dataset means adding noice/outlies in order of 2%, 4%, 6%, 8%, 10%, 12%, 14%. Then from these errored/noisy dataset we will try to run the DBSCAN algorithm for every % of outliers added, also for every iteration we are giving the minpts values as random such as 3,5,7,9,11 . So motive is to find the best mean point value by plotting the ROC(FPR vs TPR) , also plotting FPR, TPR, Accuracy, Recall respectively with each % of outliers which is falsified. 
+## Welcome to GitHub Pages
+
+You can use the [editor on GitHub](https://github.com/SukumarSarma/DBSCAN-Clustering/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SukumarSarma/DBSCAN-Clustering/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
