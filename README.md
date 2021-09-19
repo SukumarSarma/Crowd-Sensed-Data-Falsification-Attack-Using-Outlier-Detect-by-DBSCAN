@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+## Crowd Sensed Data Falsification Attack Using Outlier Detect by DBSCAN
 
-You can use the [editor on GitHub](https://github.com/SukumarSarma/DBSCAN-Clustering/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Crowd Sensed also called mobile crowd sensing means our smartphone has lots of sensors say GPS which generates the locations say for weather report generator for that location where it responsible for collecting data for various purposes. 
+So, some data may get changed due to noise. So, we predict those 
+noisy data by doing lots of hyper-parameter tuning and data 
+visualization for better selection of the parameter for DBSCAN 
+algorithm.  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## How It Works
+1. we had taken a correct crowd sensed dataset for temperature and falsified the dataset in terms of percentage(say 2%,4%, and so on 
+of the total records).
 
-### Markdown
+2. For each percentage of falsified datasets we run our DBSCAN(Desity
+Based Spatial Clustering of Applications with Noise) manually in increasing order
+for each percentage of falsified dataset and run for three iterations.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+3. We manually calculate the Average Accuracy, Average Recal, Average Precision,Average FPR, Average TPR for every iterations in each percentages of data falsified.
 
-```markdown
-Syntax highlighted code block
+4. We finally plot the various graphs for visualizing the DBSCAN parameters w.r.t percentage of data falsification such as: 
+   i) Average Accuracy vs percentage of data falsification(2%,4%,etc), 
+   ii) Average Recall vs percentage of data falsification, 
+   iii) Average Precision vs percentage of data falsification, 
+   iv) finally ROC(Receiver Operating Characteristic Curve) which is Average FPR vs Average TPR for determining the best Parameter value for our model which has high    TPR and low FPR.
 
-# Header 1
-## Header 2
-### Header 3
+## My Role in Project
+I had implemented the coding part and the report generation was done by my project partner.
 
-- Bulleted
-- List
+## Chalenges  Faced
+The major problem we faced was for manually calculating the FPR, TPR, Accuracy, Recall, Precision.
 
-1. Numbered
-2. List
+  
+## Authors
 
-**Bold** and _Italic_ and `Code` text
+- [@sukumarsarma](https://github.com/SukumarSarma)
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 🔗 Links
 
-### Jekyll Themes
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SukumarSarma/DBSCAN-Clustering/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+## 🛠 Skills
+Python, Sklearn, Tensorflow, Data Visualization Tool, mySQL, Tableau, Excel, C/C++ 
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  
+## Hello i am Sukumar Sarm
+I'm a Freshers and i love in the field of data science, Machine learning
+and Data Analyst.
+  
